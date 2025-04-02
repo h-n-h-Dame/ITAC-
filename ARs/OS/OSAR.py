@@ -35,16 +35,16 @@ def OSARCal(L:list[int],W:list[float],FB:list[float],K:int,CH:list[float],PH:
     return CS
     
 #EXAMPLE
-L=[256]
-W=[25.0]
-FB=[1.0]
+L=[]
+W=[]
+FB=[]
 K=1000
-CH=[4320.0]
-PH=[2851.2]
+CH=[]
+PH=[]
 #CF=[]
 #for i in range(len(CH)):
 #    CF.append( PH[i]/CH[i] )
 M=12
 #ES= ESCal(L,W,FB,K,CH,PH)
 #DR= DRCal(L,W,FB,K,CF,M)
-CS=OSARCal(L,W,FB,K,CH,PH,M,EEC=0.1278,EDC=20.42)
+CS=OSARCal(L,W,FB,K,CH,PH,M,EEC=,EDC=)
